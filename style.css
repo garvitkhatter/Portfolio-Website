@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #0f172a, #020617);
+  color: white;
+}
+
+/* NAV */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav li {
+  margin-left: 20px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.subtext {
+  margin-top: 10px;
+  color: #94a3b8;
+}
+
+.hero-buttons {
+  margin-top: 20px;
+}
+
+/* BUTTONS */
+.btn {
+  padding: 12px 25px;
+  background: linear-gradient(45deg, #38bdf8, #6366f1);
+  border-radius: 30px;
+  text-decoration: none;
+  color: white;
+  margin: 5px;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.secondary {
+  background: transparent;
+  border: 1px solid #38bdf8;
+}
+
+/* GLASS */
+.glass {
+  background: rgba(255,255,255,0.05);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  margin: 40px;
+  padding: 40px;
+}
+
+/* SKILLS */
+.skills {
+  text-align: center;
+  padding: 50px;
+}
+
+.skill-box span {
+  margin: 10px;
+  padding: 10px 15px;
+  background: #1e293b;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+/* PROJECTS */
+#projects {
+  padding: 50px;
+  text-align: center;
+}
+
+.card {
+  background: rgba(255,255,255,0.05);
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 400px;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.05);
+}
+
+.tech {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: #94a3b8;
+}
+
+.project-links a {
+  margin-right: 15px;
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+/* CONTACT */
+.contact {
+  text-align: center;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #94a3b8;
+}
+
+/* LIGHT MODE */
+.light {
+  background: linear-gradient(135deg, #f5f5dc, #fff8dc);
+  color: #2c1810;
+}
+
+.light .nav a {
+  color: #2c1810;
+}
+
+.light .subtext,
+.light .tech,
+.light footer {
+  color: #8b7355;
+}
+
+.light .glass {
+  background: rgba(245, 245, 220, 0.8);
+}
+
+.light .card,
+.light .skill-box span {
+  background: rgba(245, 245, 220, 0.9);
+}
